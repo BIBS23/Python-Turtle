@@ -1,0 +1,15 @@
+import turtle
+
+t = turtle.Turtle()
+t.fillcolor('red')
+t.begin_fill()
+t.speed(1)
+t.forward(150)
+t.right(90)
+t.forward(80)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(80)
+t.end_fill()
+turtle.done()
